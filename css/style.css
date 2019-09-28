@@ -97,7 +97,6 @@ nav ul li a{
 /* newsletter start */
 .newsletter{
 	background-color: #f0f0f0;
-	text-align: center;
 }
 .newsletter h3{
 	font-family: 'Playfair Display', serif;
@@ -105,24 +104,34 @@ nav ul li a{
 	font-size: 33px;
 	color: #333333;
 	margin-bottom: 70px;
+	text-align: center;
 }
-.newsletter form{
-	border-bottom: 1px solid #333;
-    width: 400px;
-    margin: 50px auto;
-    padding: 15px 0;
-    display: block;
-    overflow: hidden;
+.for_form{
+	width: 394px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	
 }
-.newsletter form input[type="email"]{
-	background-color: #f0f0f0;
-	border: none;
-	width: 355px;
+.for_form form input[type="email"]{
 	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	color: #626262;
-	display: inline-block;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 335px;
+	padding: 10px 50px 10px 10px;
+	outline: none;
+}
+
+.for_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: -2px;
+	right: -36px;
+
 }
 /* newsletter end */
 /* button start */
